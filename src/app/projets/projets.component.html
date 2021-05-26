@@ -1,0 +1,16 @@
+<main>
+    <div class="title">Projects:</div>
+    <section class="project-list">
+        <article class="project" *ngFor="let project of projectList">
+            <a [href]="project.link" target="_blank">
+                <div class="name">{{project.name}}</div>
+                <div class="date">{{project.date}}</div>
+                <div class="img"><img [src]="project.img" alt="img of {{project.name}}"></div>
+                <div class="desc">
+                    <p>{{project.desc1}}</p>
+                    <p>{{project.desc2}}</p>
+                </div>
+            </a>
+        </article>
+    </section>
+</main>

@@ -1,0 +1,34 @@
+[
+    {
+        "date": "2021",
+        "name": "Ohto",
+        "desc1": "A small Angular app using AniList's API to offer a random anime/manga based on your filters.",
+        "desc2": "Made alone during my free time.",
+        "link": "https://github.com/RangoDisco/Ohto",
+        "img": "assets/img/ohto.png"
+    },
+    {
+        "date": "11/05/21 - 12/05/21",
+        "name": "SpaceTools",
+        "desc1": "Hackathon web app providing an entertainment toolbox for robots in space. Winning project",
+        "desc2": "Made in 24h by a 5 members team.",
+        "link": "https://github.com/RangoDisco/Tjunami",
+        "img": "assets/img/spaceTools.png"
+    },
+    {
+        "date": "04/21 - 05/21",
+        "name": "Direct Feminin",
+        "desc1": "Student project providing standing, calendar and direct matches for women sport.",
+        "desc2": "Made in 4 weeks by a 5 members team.",
+        "link": "No link",
+        "img": "assets/img/directFeminin.png"
+    },
+    {
+        "date": "2020",
+        "name": "Aurinko",
+        "desc1": "A small instant weather app made with Angular and OpenWeather's api in order to learn more about Angular.",
+        "desc2": "Made alone during my free time.",
+        "link": "https://github.com/RangoDisco/Aurinko",
+        "img": "assets/img/aurinko.png"
+    }
+]
