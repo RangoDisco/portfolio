@@ -1,60 +1,98 @@
 $bg-color: #262626;
 $accent-color: #34a594;
-main{
-    margin-top: 5%;
-    color: white;
-    display: flex;
-    flex-direction: row;
+main {
+  margin: 5% 0 10% 0;
+  color: white;
 }
-.accent{
-    color: $accent-color;
+.content {
+  display: flex;
+  flex-direction: row;
+}
+// DOWN BUTTON
+@keyframes buttonSize {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.projects-button {
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  text-decoration: none;
+  width: 40px;
+  animation: buttonSize 4s infinite;
+  animation-timing-function: ease-in-out;
+}
+// END DOWN BUTTON
+.accent {
+  color: $accent-color;
 }
 // NAME & INTRO
-.name-infos{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.intro-photo {
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
 }
-.name{
-    font-size: 3rem;
+.name-infos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.title{
-    font-size: 2rem;
+.name {
+  font-size: 3rem;
 }
-.links{
-    margin-top: 2%;
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
+.title {
+  font-size: 2rem;
 }
-.icon{
-    color: #fff;
-    transition: color 200ms ease-in-out;
-    &:hover{
-        color: $accent-color;
-    }
+.links {
+  margin-top: 2%;
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.icon {
+  color: #fff;
+  transition: color 200ms ease-in-out;
+  &:hover {
+    color: $accent-color;
+  }
 }
 // END NAME & INTRO
 
 // ABOUT SECTION
-.about{
-    width: 50%;
+.about {
+  padding: 15px;
+  margin-top: 3%;
+  width: 50%;
 }
 .about p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-.bold{
-    font-weight: 600;
+.bold {
+  font-weight: 600;
 }
 
 // END ABOUT SECTION
 
-@media screen and (max-width: 990px){
-    main{
-        flex-direction: column;
-    }
-    .name-infos, .about {
-        width: 100%;
-    }
+@media screen and (max-width: 990px) {
+  main {
+    flex-direction: column;
+  }
+  .intro-photo {
+    width: 350px;
+    height: 350px;
+  }
+  .name-infos,
+  .about {
+    width: 100%;
+  }
 }

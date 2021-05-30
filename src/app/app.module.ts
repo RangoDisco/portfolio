@@ -9,6 +9,10 @@ import { ProjetsComponent } from './projets/projets.component';
 import { IconsModule } from './icons/icons.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { LanguagesToolsComponent } from './languages-tools/languages-tools.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
     IntroComponent,
     ProjetsComponent,
     NotFoundComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    LanguagesToolsComponent,
+    HomeComponent,
+    FooterComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

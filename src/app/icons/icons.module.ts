@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FeatherModule } from 'angular-feather';
-import { Linkedin, Heart, Github, ArrowUp } from 'angular-feather/icons';
+import { Linkedin, Heart, Github, ArrowUp, AlertCircle, Download, ChevronDown } from 'angular-feather/icons';
 
 
 const icons = {
   Linkedin,
   Heart,
   Github,
-  ArrowUp
+  ArrowUp,
+  AlertCircle,
+  Download,
+  ChevronDown
 }
 @NgModule({
   declarations: [],

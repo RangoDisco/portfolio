@@ -6,11 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  monCv: string;
   constructor() { }
 
   ngOnInit(): void {
-    this.monCv = '../../assets/cv.pdf';
+
   }
 
 }

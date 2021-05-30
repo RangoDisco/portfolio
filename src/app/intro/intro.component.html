@@ -1,26 +1,41 @@
 <main>
-    <section class="name-infos">
-        <div class="name">Maxime Dias</div>
-        <div class="title accent">Junior Web Developer</div>
-        <div class="links">
-            <a href="https://github.com/RangoDisco" target="_blank" rel="noopener noreferrer">
-                <i-feather name="github" class="icon"></i-feather>
-            </a>
-            <a href="https://linkedin.com/in/maxime-dias" target="_blank" rel="noopener noreferrer">
-                <i-feather name="linkedin" class="icon"></i-feather>
-            </a>
-            <a href="https://linkedin.com/in/maxime-dias" target="_blank" rel="noopener noreferrer">
-                <i-feather name="heart" class="icon"></i-feather>
-            </a>
+    <section class="content">
+        <section class="name-infos">
+            <img class="intro-photo" [src]="introPhoto" alt="Ma photo">
+            <div class="name">Maxime Dias</div>
+            <div class="title accent">Junior Web Developer</div>
+            <div class="links">
+                <a href="https://github.com/RangoDisco" target="_blank" rel="noopener noreferrer">
+                    <i-feather name="github" class="icon"></i-feather>
+                </a>
+                <a href="https://linkedin.com/in/maxime-dias" target="_blank" rel="noopener noreferrer">
+                    <i-feather name="linkedin" class="icon"></i-feather>
+                </a>
+                <a [href]="monCv" download="dias_maxime_cv.pdf">
+                    <i-feather name="download" class="icon"></i-feather>
 
-        </div>
+                </a>
+
+            </div>
+        </section>
+        <section class="about">
+            <h2 class="accent">About me :</h2>
+            <p>Hi ! My name is <span class="bold accent"> Maxime</span>, a junior Web Developer currently studiying at
+                the
+                WildCodeSchool in Lyon.</p>
+
+            <p>Right now, I'm learning <span class="bold accent">Angular</span> and <span class="bold accent">
+                    Spring</span> but I'm planning on learning more languages & technologies such as React and NodeJS.
+            </p>
+
+            <p> I also fell in love with <span class="accent">Open Source</span> developement and I'm trying my best to
+                help the community ! </p>
+        </section>
     </section>
-    <section class="about">
-        <h2 class="accent">About me :</h2>
-        <p>Hi ! My name is <span class="bold accent"> Maxime</span>, I'm a Junior Web Developper passionate about
-            open source developpement. <br>
-            I'm currently learning <span class="bold accent">Angular</span> and <span class="bold accent">Java
-                Spring</span> at the Wild Code School in Lyon
-        </p>
-    </section>
+    <div class="projects-button">
+        <a class="button nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="router-link-active"
+            [fragment]="'projects'">
+            <i-feather name="chevron-down" class="icon"></i-feather>
+        </a>
+    </div>
 </main>
