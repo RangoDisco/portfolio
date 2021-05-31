@@ -1,8 +1,11 @@
-<main>
+<main id="tools">
     <section class="tools">
+        <div class="tools-title">
+            <h2 class="title">Tools: </h2>
+        </div>
         <div class="tool" *ngFor="let tool of toolsList">
             <div class="tool-icon">
-                <i [class]="tool.icon"></i>
+                <img class="tools-icon" [src]="tool.icon" alt="icon of {{tool.name}}">
             </div>
         </div>
     </section>

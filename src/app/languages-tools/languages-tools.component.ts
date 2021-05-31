@@ -12,9 +12,10 @@ export class LanguagesToolsComponent implements OnInit {
   constructor(private service: ToolsService) { }
 
   ngOnInit(): void {
-    // this.service.getToolsList().subscribe((data) => {
-    //   this.toolsList = data;
-    // })
+    this.service.getToolsList().subscribe((data) => {
+      console.log(data)
+      this.toolsList = data;
+    })
   }
 
 }

@@ -1,6 +1,23 @@
 $bg-color: #262626;
 $accent-color: #34a594;
 
-main{
-    color: white;
+main {
+  color: white;
+  margin-bottom: 5%;
+}
+.tools {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.tools-title {
+  margin-bottom: 2%;
+  width: 100%;
+  color: $accent-color;
+}
+.tools-icon {
+  width: 80px;
+  height: 80px;
 }

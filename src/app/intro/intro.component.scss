@@ -9,27 +9,18 @@ main {
   flex-direction: row;
 }
 // DOWN BUTTON
-@keyframes buttonSize {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 .projects-button {
   margin-top: 4%;
   display: flex;
   justify-content: center;
 }
-.button {
-  text-decoration: none;
+.btn-down {
   width: 40px;
-  animation: buttonSize 4s infinite;
-  animation-timing-function: ease-in-out;
+  transition: color 300ms ease-in-out;
+  &:hover {
+    color: $accent-color;
+  }
 }
 // END DOWN BUTTON
 .accent {
