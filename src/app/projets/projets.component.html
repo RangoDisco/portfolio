@@ -2,7 +2,10 @@
     <div class="title">
         <h2>Projects:</h2>
     </div>
+
     <section class="project-list">
+
+        <!-- Boucle sur le tableau de projets pour les afficher un à un  -->
         <article class="project" *ngFor="let project of projectList">
             <a [href]="project.link" target="_blank">
                 <div class="name">{{project.name}}</div>

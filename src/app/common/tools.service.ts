@@ -5,17 +5,20 @@ import { map } from 'rxjs/operators';
 import { Tool } from './tool';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ToolsService {
-
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getToolsList(): Observable<Tool[]> {
-    const obs: Observable<any> = this.http.get('assets/tools.json')
+    // Get du fichier json contenant les outils
+    const obs: Observable<any> = this.http.get('assets/tools.json');
+    // On GET tout
     const data = (data) => {
-      return data as Tool[]
-    }
-    return obs.pipe(map(data))
+      // on return la reponse en tant que tableau de Tool
+      return data as Tool[];
+    };
+    // return data en observable
+    return obs.pipe(map(data));
   }
 }

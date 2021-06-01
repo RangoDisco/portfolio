@@ -26,7 +26,7 @@
     {
         "date": "2020",
         "name": "Aurinko",
-        "desc1": "A small instant weather app made with Angular and OpenWeather's api in order to learn more about Angular.",
+        "desc1": "A small weather app made with Angular and OpenWeather's api to learn more about Angular.",
         "desc2": "Made alone during my free time.",
         "link": "https://github.com/RangoDisco/Aurinko",
         "img": "assets/img/aurinko.png"

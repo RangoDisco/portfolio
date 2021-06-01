@@ -1,18 +1,23 @@
 $bg-color: #262626;
 $accent-color: #34a594;
+
+.title {
+  color: $accent-color;
+}
+// LISTE PROJECTS
 #projects {
   margin: auto;
   width: 80%;
   margin-bottom: 10%;
-}
-.title {
-  color: $accent-color;
 }
 .project-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
+// FIN LISTE PROJECTS
+
+// PROJECT
 .project {
   margin-top: 2%;
   background-color: #202020;
@@ -44,17 +49,35 @@ $accent-color: #34a594;
   width: 20%;
   padding: 0.5rem;
 }
+.desc {
+  font-size: 1.2rem;
+}
 .projet-hr {
   height: 2px;
   color: $accent-color;
 }
+// FIN PROJECT
+
 @media screen and (max-width: 768px) {
+  #projects {
+    width: 100%;
+  }
+  .title {
+    padding: 1rem;
+  }
   .project-list {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
   }
   .project {
-    width: 80%;
+    margin-top: 5%;
+    width: 90%;
+    img {
+      width: 30%;
+    }
+  }
+  .desc {
+    font-size: 1.1rem;
   }
 }

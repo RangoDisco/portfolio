@@ -5,17 +5,18 @@ import { ToolsService } from '../common/tools.service';
 @Component({
   selector: 'app-languages-tools',
   templateUrl: './languages-tools.component.html',
-  styleUrls: ['./languages-tools.component.scss']
+  styleUrls: ['./languages-tools.component.scss'],
 })
 export class LanguagesToolsComponent implements OnInit {
+  // Tableau qui va servir à stocker les outils
   public toolsList: Tool[];
-  constructor(private service: ToolsService) { }
+  constructor(private service: ToolsService) {}
 
   ngOnInit(): void {
+    // Appel de la fonction du service qui vient chercher tous les outils
     this.service.getToolsList().subscribe((data) => {
-      console.log(data)
+      // Push des outils dans le tableau
       this.toolsList = data;
-    })
+    });
   }
-
 }

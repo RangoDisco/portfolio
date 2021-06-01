@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 $bg-color: #262626;
-
-body{
-    margin: 0;
-    padding: 0;
-    background-color: $bg-color;
+@font-face {
+  font-family: Rubik;
+  src: url(assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $bg-color;
 }

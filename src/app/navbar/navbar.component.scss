@@ -1,7 +1,8 @@
 $bg-color: #262626;
 $accent-color: #34a594;
-.navbar {
+nav {
   background-color: $bg-color;
+  font-size: 1.2rem;
 }
 nav a,
 .collapse a {
