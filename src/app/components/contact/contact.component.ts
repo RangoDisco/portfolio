@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { EmailService } from '../common/email.service';
-import { FormInputs } from '../common/form-inputs';
+import { EmailService } from '../../common/email.service';
+import { FormInputs } from '../../common/form-inputs';
 
 @Component({
   selector: 'app-contact',

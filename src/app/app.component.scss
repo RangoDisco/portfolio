@@ -1,15 +1,15 @@
 $bg-color: #262626;
 $accent-color: #34a594;
-.scroll-to-top{
-    padding: 1rem;
-    float: right;
-    border: none;
-    background-color: $bg-color;
-    color: $accent-color;
-    transition: all 200ms ease-in-out;
+.scroll-to-top {
+  padding: 1rem;
+  float: right;
+  border: none;
+  background-color: $bg-color;
+  color: $accent-color;
+  transition: all 200ms ease-in-out;
 
-    &:hover{
-        background-color: $accent-color;
-        color: $bg-color;
-    }
+  &:hover {
+    background-color: $accent-color;
+    color: $bg-color;
+  }
 }

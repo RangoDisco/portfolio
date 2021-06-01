@@ -1,18 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { IntroComponent } from './intro/intro.component';
-import { ProjetsComponent } from './projets/projets.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { ProjetsComponent } from './components/projets/projets.component';
 import { IconsModule } from './icons/icons.module';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
-import { LanguagesToolsComponent } from './languages-tools/languages-tools.component';
-import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { LanguagesToolsComponent } from './components/languages-tools/languages-tools.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { FormsModule } from '@angular/forms';
     IntroComponent,
     ProjetsComponent,
     NotFoundComponent,
-    ScrollToTopComponent,
     LanguagesToolsComponent,
     HomeComponent,
     FooterComponent,
@@ -33,9 +31,9 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     IconsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
