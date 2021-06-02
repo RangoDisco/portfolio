@@ -32,7 +32,7 @@
 
         <!-- EMAIL INPUT -->
         <div class="email">
-            <input type="text" name="user-email" [(ngModel)]="formInputs.email" #email required placeholder="email *">
+            <input type="text" name="user-email" [(ngModel)]="formInputs.email" #email required placeholder="Email *">
             <!-- EMAIL ERRORS -->
             <div class="errors" *ngIf="email.errors && contactForm.submitted">
                 <div class="error" *ngIf="email.errors?.required">Please enter your email</div>
@@ -40,7 +40,7 @@
         </div>
         <!-- PHONE INPUT -->
         <div class="phone">
-            <input type="text" name="user-phone" [(ngModel)]="formInputs.phone" #phone required placeholder="phone">
+            <input type="text" name="user-phone" [(ngModel)]="formInputs.phone" #phone required placeholder="Phone">
 
             <!-- PHONE ERRORS -->
             <div class="errors" *ngIf="phone.errors && contactForm.submitted">

@@ -3,5 +3,5 @@ export class FormInputs {
     public lastname: string;
     public email: string;
     public content: string;
-    public phone: string = "none";
+    public phone: string;
 }
