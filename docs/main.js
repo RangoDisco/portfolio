@@ -102,7 +102,7 @@ class IntroComponent {
         // string de la photo bind dans l'HTML
         this.introPhoto = 'assets/img/photo.png';
         // string du cv bind dans l'HTML
-        this.monCv = '../../assets/dias_maxime_cv.pdf';
+        this.monCv = '../../portfolio/assets/dias_maxime_cv.pdf';
     }
     ngOnInit() { }
 }
