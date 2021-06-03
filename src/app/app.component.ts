@@ -1,5 +1,5 @@
-import { ViewportScroller } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ export class AppComponent {
 
   pageYoffset = 0;
 
-  constructor(private scroll: ViewportScroller) {}
+  constructor() {}
 }

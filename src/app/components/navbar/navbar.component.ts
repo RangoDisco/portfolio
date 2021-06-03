@@ -1,18 +1,19 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  constructor(private scroll: ViewportScroller) { }
-
-  ngOnInit(): void {
-
+  constructor(private translate: TranslateService) {
+    translate.addLangs(['en', 'fr']);
+    translate.setDefaultLang('en');
   }
-  scrollToTop() {
-    this.scroll.scrollToPosition([0, 0]);
+  userLanguage(language: string) {
+    this.translate.use(language);
   }
+  ngOnInit(): void {}
 }
