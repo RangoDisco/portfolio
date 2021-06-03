@@ -11,7 +11,6 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { LanguagesToolsComponent } from './components/languages-tools/languages-tools.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -24,7 +23,6 @@ import { FormsModule } from '@angular/forms';
     LanguagesToolsComponent,
     HomeComponent,
     FooterComponent,
-    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,4 +34,4 @@ import { FormsModule } from '@angular/forms';
   providers: [],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }

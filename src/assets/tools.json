@@ -4,10 +4,6 @@
         "icon": "assets/img/angular.svg"
     },
     {
-        "name": "React",
-        "icon": "assets/img/react.svg"
-    },
-    {
         "name": "TypeScript",
         "icon": "assets/img/typescript.svg"
     },
