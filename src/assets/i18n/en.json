@@ -7,5 +7,16 @@
 	"about.and": " and ",
 	"about.second-part-second-paragraph": "but I'm planning on learning more languages & technologies such as React and NodeJS.",
 	"about.first-part-third-paragraph": "I also fell in love with ",
-	"about.second-part-third-paragraph": " developement and I'm trying my best to help the community !"
+	"about.second-part-third-paragraph": " developement and I'm trying my best to help the community !",
+	"footer.copyright": "Absolutly no copyright at all - ",
+	"Projects": {
+		"P1":{
+		"desc-1": "A small Angular app using AniList's API to offer a random anime/manga based on your filters.",
+		"desc-2": "Made alone during my free time."
+		},
+		"P2":{
+			"desc-1": "Hackathon web app providing an entertainment toolbox for robots in space. Winning project",
+			"desc-2": "Made in 24h by a 5 members team."
+		}
+	}
 }

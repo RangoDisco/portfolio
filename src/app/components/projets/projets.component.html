@@ -6,14 +6,14 @@
     <section class="project-list">
 
         <!-- Boucle sur le tableau de projets pour les afficher un à un  -->
-        <article class="project" *ngFor="let project of projectList">
+        <article class="project" *ngFor="let project of projectList;">
             <a [href]="project.link" target="_blank">
                 <div class="img"><img [src]="project.img" alt="img of {{project.name}}"></div>
                 <div class="name">{{project.name}}</div>
                 <div class="date">{{project.date}}</div>
                 <hr class="projet-hr">
                 <div class="desc">
-                    <p>{{project.desc1}}</p>
+                    <p>{{'Projects.P1.desc-1' | translate}}</p>
                     <p>{{project.desc2}}</p>
                 </div>
             </a>

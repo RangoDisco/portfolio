@@ -25,3 +25,13 @@ nav a {
 .nav-item {
   margin-left: 5px;
 }
+.btn-lang {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: $bg-color;
+}
+.flag {
+  font-size: 1.5rem;
+  width: 100%;
+}

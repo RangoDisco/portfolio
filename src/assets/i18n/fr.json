@@ -8,5 +8,16 @@
 	"about.and": " et ",
 	"about.second-part-second-paragraph": "mais j'essaie d'apprendre d'autres langages et techonologies, comme React ou NodeJS.",
 	"about.first-part-third-paragraph": "Je suis également passionné par le développement ",
-	"about.second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !"
+	"about.second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !",
+	"footer.copyright": "Absolument pas de copyright -", 
+	"Projects": {
+		"P1":{
+		"desc-1": "GENQNT",
+		"desc-2": "Made alone during my frsdfsdfsdfee time."
+		},
+		"P2":{
+			"desc-1": "Hackathon web app providingsdffffffffffffffffff an entertainment toolbox for robots in space. Winning project",
+			"desc-2": "Made in 24h by a 5 membefsdffffffffffffffrs team."
+		}
+	}
 }
