@@ -13,3 +13,14 @@ $accent-color: #34a594;
     color: $bg-color;
   }
 }
+.animation {
+  animation: opac 1s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

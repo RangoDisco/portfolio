@@ -1,4 +1,3 @@
-import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -17,9 +16,15 @@ export class NavbarComponent implements OnInit {
   userLanguage() {
     if (this.translate.currentLang == 'fr') this.translate.use('en');
     else this.translate.use('fr');
-    this.currentLang = this.translate.currentLang;
+    this.changeButton();
   }
   ngOnInit(): void {
-    this.currentLang = this.translate.currentLang;
+    this.changeButton();
+  }
+
+  changeButton() {
+    if (this.translate.currentLang == 'fr') {
+      this.currentLang = 'en';
+    } else this.currentLang = 'fr';
   }
 }

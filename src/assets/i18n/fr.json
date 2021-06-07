@@ -59,5 +59,9 @@
     "desc2": "Fait seul durant mon temps libre.",
     "link": "https://github.com/RangoDisco/Aurinko",
     "img": "assets/img/aurinko.png"
+  },
+  "NotFound": {
+    "desc": "Cette page n'existe pas",
+    "button": "Retourner à l'accueil"
   }
 }
