@@ -61,7 +61,7 @@
   "P5": {
     "date": "2020",
     "name": "Aurinko",
-    "desc1": "Site de météo instannée utilisant l'API d'OpenWeather",
+    "desc1": "Site de météo instantanée utilisant l'API d'OpenWeather",
     "desc2": "Fait seul durant mon temps libre.",
     "link": "https://github.com/RangoDisco/Aurinko",
     "img": "assets/img/aurinko.png"
