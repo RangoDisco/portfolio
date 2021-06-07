@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 import { Tool } from '../../common/tool';
 import { ToolsService } from '../../common/tools.service';
 
@@ -10,7 +11,18 @@ import { ToolsService } from '../../common/tools.service';
 export class LanguagesToolsComponent implements OnInit {
   // Tableau qui va servir à stocker les outils
   public toolsList: Tool[];
-  constructor(private service: ToolsService) {}
+  // Necessaire pour la traduction
+  constructor(
+    private translate: TranslateService,
+    private service: ToolsService
+  ) {
+    translate.addLangs(['en', 'fr']);
+    const currentLang = translate.getBrowserLang();
+    translate.setDefaultLang(currentLang);
+  }
+  userLanguage(language: string) {
+    this.translate.use(language);
+  }
 
   ngOnInit(): void {
     // Appel de la fonction du service qui vient chercher tous les outils

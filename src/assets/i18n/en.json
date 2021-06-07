@@ -18,6 +18,13 @@
     "first-part-third-paragraph": "I also fell in love with ",
     "second-part-third-paragraph": " developement and I'm trying my best to help the community !"
   },
+
+  "tools": {
+    "title": "Tools:"
+  },
+  "projects": {
+    "title": "Projects"
+  },
   "footer": {
     "copyright": "Absolutly no copyright at all - "
   },
