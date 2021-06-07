@@ -6,17 +6,72 @@
     <section class="project-list">
 
         <!-- Boucle sur le tableau de projets pour les afficher un à un  -->
-        <article class="project" *ngFor="let project of projectList;">
-            <a [href]="project.link" target="_blank">
-                <div class="img"><img [src]="project.img" alt="img of {{project.name}}"></div>
-                <div class="name">{{project.name}}</div>
-                <div class="date">{{project.date}}</div>
+        <article class="project">
+            <a href="{{'P1.link' | translate}}" target="_blank" rel="noopener noreferrer">
+                <div class="img"><img class="project-img" src="{{'P1.img' | translate}}"
+                        alt="img of {{'P1.name' | translate}}"></div>
+                <div class="name">{{'P1.name' | translate}}</div>
+                <div class="date">{{'P1.date' | translate}}</div>
                 <hr class="projet-hr">
                 <div class="desc">
-                    <p>{{'Projects.P1.desc-1' | translate}}</p>
-                    <p>{{project.desc2}}</p>
+                    <p>{{'P1.desc1' | translate}}</p>
+                    <p>{{'P1.desc2' | translate}}</p>
                 </div>
             </a>
         </article>
+        <article class="project">
+            <a href="{{'P2.link' | translate}}" target="_blank" rel="noopener noreferrer">
+                <div class="img"><img class="project-img" src="{{'P2.img' | translate}}"
+                        alt="img of {{'P2.name' | translate}}"></div>
+                <div class="name">{{'P2.name' | translate}}</div>
+                <div class="date">{{'P2.date' | translate}}</div>
+                <hr class="projet-hr">
+                <div class="desc">
+                    <p>{{'P2.desc1' | translate}}</p>
+                    <p>{{'P2.desc2' | translate}}</p>
+                </div>
+            </a>
+        </article>
+        <article class="project">
+            <a href="{{'P3.link' | translate}}" target="_blank" rel="noopener noreferrer">
+                <div class="img"><img class="project-img" src="{{'P3.img' | translate}}"
+                        alt="img of {{'P3.name' | translate}}"></div>
+                <div class="name">{{'P3.name' | translate}}</div>
+                <div class="date">{{'P3.date' | translate}}</div>
+                <hr class="projet-hr">
+                <div class="desc">
+                    <p>{{'P3.desc1' | translate}}</p>
+                    <p>{{'P3.desc2' | translate}}</p>
+                </div>
+            </a>
+        </article>
+        <article class="project">
+            <a href="{{'P4.link' | translate}}" target="_blank" rel="noopener noreferrer">
+                <div class="img"><img class="project-img" src="{{'P4.img' | translate}}"
+                        alt="img of {{'P4.name' | translate}}"></div>
+                <div class="name">{{'P4.name' | translate}}</div>
+                <div class="date">{{'P4.date' | translate}}</div>
+                <hr class="projet-hr">
+                <div class="desc">
+                    <p>{{'P4.desc1' | translate}}</p>
+                    <p>{{'P4.desc2' | translate}}</p>
+                </div>
+            </a>
+        </article>
+        <article class="project">
+            <a href="{{'P5.link' | translate}}" target="_blank" rel="noopener noreferrer">
+                <div class="img"><img class="project-img" src="{{'P5.img' | translate}}"
+                        alt="img of {{'P5.name' | translate}}"></div>
+                <div class="name">{{'P5.name' | translate}}</div>
+                <div class="date">{{'P5.date' | translate}}</div>
+                <hr class="projet-hr">
+                <div class="desc">
+                    <p>{{'P5.desc1' | translate}}</p>
+                    <p>{{'P5.desc2' | translate}}</p>
+                </div>
+            </a>
+        </article>
+
+
     </section>
 </main>

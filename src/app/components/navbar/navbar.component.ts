@@ -8,12 +8,18 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
+  currentLang;
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);
-    translate.setDefaultLang('en');
+    translate.currentLang = translate.getBrowserLang();
+    translate.setDefaultLang(this.translate.currentLang);
   }
-  userLanguage(language: string) {
-    this.translate.use(language);
+  userLanguage() {
+    if (this.translate.currentLang == 'fr') this.translate.use('en');
+    else this.translate.use('fr');
+    this.currentLang = this.translate.currentLang;
   }
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.currentLang = this.translate.currentLang;
+  }
 }

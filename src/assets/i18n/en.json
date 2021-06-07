@@ -1,22 +1,64 @@
 {
-	"intro.title": "Junior Web Developer",
-	"about.title": "About me:",
-	"about.first-part-first-paragraph": "Hi ! my name is",
-	"second-part-first-paragraph": ", a junior Web Developer currently studying at the WildCodeSchool in Lyon.",
-	"about.first-part-second-paragraph": "Right now, I'm learning",
-	"about.and": " and ",
-	"about.second-part-second-paragraph": "but I'm planning on learning more languages & technologies such as React and NodeJS.",
-	"about.first-part-third-paragraph": "I also fell in love with ",
-	"about.second-part-third-paragraph": " developement and I'm trying my best to help the community !",
-	"footer.copyright": "Absolutly no copyright at all - ",
-	"Projects": {
-		"P1":{
-		"desc-1": "A small Angular app using AniList's API to offer a random anime/manga based on your filters.",
-		"desc-2": "Made alone during my free time."
-		},
-		"P2":{
-			"desc-1": "Hackathon web app providing an entertainment toolbox for robots in space. Winning project",
-			"desc-2": "Made in 24h by a 5 members team."
-		}
-	}
+  "nav": {
+    "home": "Home",
+    "tools": "Tools",
+    "projects": "Projects"
+  },
+
+  "intro": {
+    "title": "Junior Web Déveloper"
+  },
+  "about": {
+    "title": "About me:",
+    "first-part-first-paragraph": "Hi ! my name is",
+    "second-part-first-paragraph": ", a junior Web Developer currently studying at the WildCodeSchool in Lyon.",
+    "first-part-second-paragraph": "Right now, I'm learning",
+    "and": " and ",
+    "second-part-second-paragraph": "but I'm planning on learning more languages & technologies such as React and NodeJS.",
+    "first-part-third-paragraph": "I also fell in love with ",
+    "second-part-third-paragraph": " developement and I'm trying my best to help the community !"
+  },
+  "footer": {
+    "copyright": "Absolutly no copyright at all - "
+  },
+  "P1": {
+    "date": "2021",
+    "name": "Ohto",
+    "desc1": "A small Angular app using AniList's API to offer a random anime/manga based on your filters.",
+    "desc2": "Made alone during my free time.",
+    "link": "https://github.com/RangoDisco/Ohto",
+    "img": "assets/img/ohto.png"
+  },
+  "P2": {
+    "date": "11/05/21 - 12/05/21",
+    "name": "SpaceTools",
+    "desc1": "Hackathon web app providing an entertainment toolbox for robots in space. Winning project",
+    "desc2": "Made in 24h by a 5 members team.",
+    "link": "https://github.com/RangoDisco/Tjunami",
+    "img": "assets/img/spaceTools.png"
+  },
+  "P3": {
+    "date": "04/21 - 05/21",
+    "name": "Direct Feminin",
+    "desc1": "Student project providing standing, calendar and direct matches for women sport.",
+    "desc2": "Made in 4 weeks by a 5 members team.",
+    "link": "https://github.com/RangoDisco/P2-Angular-Squad-Lyon-Angular-Mars-2021",
+    "img": "assets/img/directFeminin.png"
+  },
+  "P4": {
+    "date": "03/21",
+    "name": "691",
+    "desc1": "A collection of code snippets (MDN)",
+    "desc2": "Made in 2 weeks by a 3 members team.",
+    "link": "https://github.com/RangoDisco/691/tree/dev",
+    "img": "assets/img/691.png"
+  },
+  "P5": {
+    "date": "2020",
+    "name": "Aurinko",
+    "desc1": "A small weather app made with Angular and OpenWeather's api to learn more about Angular.",
+    "desc2": "Made alone during my free time.",
+    "link": "https://github.com/RangoDisco/Aurinko",
+    "img": "assets/img/aurinko.png"
+  }
 }

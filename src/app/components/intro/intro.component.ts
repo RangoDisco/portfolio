@@ -13,11 +13,11 @@ export class IntroComponent implements OnInit {
   public monCv: string = '../../portfolio/assets/dias_maxime_cv.pdf';
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);
-    translate.setDefaultLang('en');
+    const currentLang = translate.getBrowserLang();
+    translate.setDefaultLang(currentLang);
   }
   userLanguage(language: string) {
     this.translate.use(language);
   }
-
   ngOnInit(): void {}
 }

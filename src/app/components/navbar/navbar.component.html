@@ -1,6 +1,6 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#intro"> Home</a>
+        <a class="navbar-brand" href="#intro">{{'nav.home' | translate}}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,15 +8,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#tools">Tools</a>
+                    <a class="nav-link" aria-current="page" href="#tools">{{'nav.tools' | translate}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                    <a class="nav-link" aria-current="page" href="#projects">{{'nav.projects' | translate}}</a>
                 </li>
             </ul>
             <span class="d-flex">
-                <button class="btn-lang" (click)="userLanguage('fr')"><span class="flag">🇫🇷</span></button>
-                <button class="btn-lang" (click)="userLanguage('en')"><span class="flag">🇬🇧</span></button>
+                <button class="btn-lang" (click)="userLanguage()">{{currentLang | uppercase}}</button>
             </span>
         </div>
     </div>

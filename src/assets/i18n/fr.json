@@ -1,23 +1,63 @@
 {
-	"intro.title": "Développeur Web junior",
-	"about.title": "À propos:",
-	"about.first-part-first-paragraph": "Salut ! je suis",
-	"about.name": " Maxime",
-	"second-part-first-paragraph": ", Développeur Web junior étudiant actuellement à la WildCodeSchool de Lyon.",
-	"about.first-part-second-paragraph": "Pour l'instant je me forme sur",
-	"about.and": " et ",
-	"about.second-part-second-paragraph": "mais j'essaie d'apprendre d'autres langages et techonologies, comme React ou NodeJS.",
-	"about.first-part-third-paragraph": "Je suis également passionné par le développement ",
-	"about.second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !",
-	"footer.copyright": "Absolument pas de copyright -", 
-	"Projects": {
-		"P1":{
-		"desc-1": "GENQNT",
-		"desc-2": "Made alone during my frsdfsdfsdfee time."
-		},
-		"P2":{
-			"desc-1": "Hackathon web app providingsdffffffffffffffffff an entertainment toolbox for robots in space. Winning project",
-			"desc-2": "Made in 24h by a 5 membefsdffffffffffffffrs team."
-		}
-	}
+  "nav": {
+    "home": "Accueil",
+    "tools": "Outils",
+    "projects": "Projets"
+  },
+  "intro": {
+    "title": "Développeur Web junior"
+  },
+  "about": {
+    "title": "À propos:",
+    "first-part-first-paragraph": "Salut ! je suis",
+    "name": " Maxime",
+    "second-part-first-paragraph": ", Développeur Web junior étudiant actuellement à la WildCodeSchool de Lyon.",
+    "first-part-second-paragraph": "Pour l'instant je me forme sur",
+    "and": " et ",
+    "second-part-second-paragraph": "mais j'essaie d'apprendre d'autres langages et techonologies, comme React ou NodeJS.",
+    "first-part-third-paragraph": "Je suis également passionné par le développement ",
+    "second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !"
+  },
+  "footer.copyright": "Absolument pas de copyright -",
+
+  "P1": {
+    "date": "2021",
+    "name": "Ohto",
+    "desc1": "Site rendant un anime/manga aléatoirement en fonction de filtres",
+    "desc2": "Fait seul durant mon temps libre",
+    "link": "https://github.com/RangoDisco/Ohto",
+    "img": "assets/img/ohto.png"
+  },
+  "P2": {
+    "date": "11/05/21 - 12/05/21",
+    "name": "SpaceTools",
+    "desc1": "Realisé lors d'un hackathon (projet gagnant). Boite à outils divertissante pour robots",
+    "desc2": "Fait en 24h par une équipe de 5 membres",
+    "link": "https://github.com/RangoDisco/Tjunami",
+    "img": "assets/img/spaceTools.png"
+  },
+  "P3": {
+    "date": "04/21 - 05/21",
+    "name": "Direct Feminin",
+    "desc1": "Realisé lors de ma formation. Site de resultats et d'actualité axé sur le sport feminin.",
+    "desc2": "Fait en 4 semaines par une équipe de 5 membres.",
+    "link": "https://github.com/RangoDisco/P2-Angular-Squad-Lyon-Angular-Mars-2021",
+    "img": "assets/img/directFeminin.png"
+  },
+  "P4": {
+    "date": "03/21",
+    "name": "691",
+    "desc1": "Collection de snippets de code (type MDN)",
+    "desc2": "Fait en 2 semaines par une équipe de 3 membres",
+    "link": "https://github.com/RangoDisco/691/tree/dev",
+    "img": "assets/img/691.png"
+  },
+  "P5": {
+    "date": "2020",
+    "name": "Aurinko",
+    "desc1": "Site de météo instannée utilisant l'API d'OpenWeather",
+    "desc2": "Fait seul durant mon temps libre.",
+    "link": "https://github.com/RangoDisco/Aurinko",
+    "img": "assets/img/aurinko.png"
+  }
 }

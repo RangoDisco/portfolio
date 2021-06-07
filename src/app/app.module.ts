@@ -14,7 +14,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +25,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     HomeComponent,
     FooterComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -40,6 +40,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
       },
     }),
   ],
+
   providers: [],
   bootstrap: [AppComponent],
 })
