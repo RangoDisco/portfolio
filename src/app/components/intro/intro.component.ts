@@ -11,6 +11,8 @@ export class IntroComponent implements OnInit {
   public introPhoto: string = 'assets/img/photo.png';
   // string du cv bind dans l'HTML
   public monCv: string = '../../portfolio/assets/dias_maxime_cv.pdf';
+
+  // Necessaire pour la traduction
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);
     const currentLang = translate.getBrowserLang();

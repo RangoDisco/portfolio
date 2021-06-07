@@ -9,6 +9,8 @@ import { TranslateService } from '@ngx-translate/core';
 export class FooterComponent implements OnInit {
   // Get year for auto update in footer
   public year = new Date();
+
+  // Necessaire pour la traduction
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);
     translate.setDefaultLang('en');
@@ -17,5 +19,5 @@ export class FooterComponent implements OnInit {
     this.translate.use(language);
   }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 }

@@ -24,7 +24,7 @@
   "P1": {
     "date": "2021",
     "name": "Ohto",
-    "desc1": "A small Angular app using AniList's API to offer a random anime/manga based on your filters.",
+    "desc1": "Angular app using AniList's API to offer a random anime/manga based on the user's filters.",
     "desc2": "Made alone during my free time.",
     "link": "https://github.com/RangoDisco/Ohto",
     "img": "assets/img/ohto.png"
@@ -48,7 +48,7 @@
   "P4": {
     "date": "03/21",
     "name": "691",
-    "desc1": "A collection of code snippets (MDN)",
+    "desc1": "Collection of code snippets (MDN) made using HTML/CSS/vanilla JS",
     "desc2": "Made in 2 weeks by a 3 members team.",
     "link": "https://github.com/RangoDisco/691/tree/dev",
     "img": "assets/img/691.png"
@@ -56,7 +56,7 @@
   "P5": {
     "date": "2020",
     "name": "Aurinko",
-    "desc1": "A small weather app made with Angular and OpenWeather's api to learn more about Angular.",
+    "desc1": "Small weather app made with Angular and OpenWeather's api to learn more about Angular.",
     "desc2": "Made alone during my free time.",
     "link": "https://github.com/RangoDisco/Aurinko",
     "img": "assets/img/aurinko.png"

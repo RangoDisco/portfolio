@@ -7,10 +7,7 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./projets.component.scss'],
 })
 export class ProjetsComponent implements OnInit {
-  // Tableau qui va contenir la liste de projets
-  public projectList: any[] = [];
-
-  // TRAD
+  // Necessaire pour la traduction
   public languages = ['EN', 'FR'];
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);

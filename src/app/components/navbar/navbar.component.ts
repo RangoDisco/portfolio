@@ -7,7 +7,9 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  currentLang;
+  currentLang: String;
+
+  // Necessaire pour la traduction
   constructor(private translate: TranslateService) {
     translate.addLangs(['en', 'fr']);
     translate.currentLang = translate.getBrowserLang();
@@ -22,6 +24,7 @@ export class NavbarComponent implements OnInit {
     this.changeButton();
   }
 
+  // Change la langue affichée sur le boutton en fonction de la langue selected
   changeButton() {
     if (this.translate.currentLang == 'fr') {
       this.currentLang = 'en';

@@ -14,7 +14,7 @@
     "second-part-first-paragraph": ", Développeur Web junior étudiant actuellement à la WildCodeSchool de Lyon.",
     "first-part-second-paragraph": "Pour l'instant je me forme sur",
     "and": " et ",
-    "second-part-second-paragraph": "mais j'essaie d'apprendre d'autres langages et techonologies, comme React ou NodeJS.",
+    "second-part-second-paragraph": "mais j'essaie d'apprendre d'autres techonologies, comme React ou NodeJS.",
     "first-part-third-paragraph": "Je suis également passionné par le développement ",
     "second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !"
   },
@@ -39,7 +39,7 @@
   "P3": {
     "date": "04/21 - 05/21",
     "name": "Direct Feminin",
-    "desc1": "Realisé lors de ma formation. Site de resultats et d'actualité axé sur le sport feminin.",
+    "desc1": "Realisé lors de ma formation. Site de resultats et d'actualités axé sur le sport feminin.",
     "desc2": "Fait en 4 semaines par une équipe de 5 membres.",
     "link": "https://github.com/RangoDisco/P2-Angular-Squad-Lyon-Angular-Mars-2021",
     "img": "assets/img/directFeminin.png"
@@ -47,7 +47,7 @@
   "P4": {
     "date": "03/21",
     "name": "691",
-    "desc1": "Collection de snippets de code (type MDN)",
+    "desc1": "Site répertoriant des snippets de code (type MDN) fait avec de l'HTML/CSS/JS vanilla",
     "desc2": "Fait en 2 semaines par une équipe de 3 membres",
     "link": "https://github.com/RangoDisco/691/tree/dev",
     "img": "assets/img/691.png"
