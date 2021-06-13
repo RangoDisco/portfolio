@@ -1,26 +1,30 @@
 [
-    {
-        "name": "Angular",
-        "icon": "assets/img/angular.svg"
-    },
-    {
-        "name": "TypeScript",
-        "icon": "assets/img/typescript.svg"
-    },
-    {
-        "name": "Spring",
-        "icon": "assets/img/spring.svg"
-    },
-    {
-        "name": "Java",
-        "icon": "assets/img/java.svg"
-    },
-    {
-        "name": "Git",
-        "icon": "assets/img/git.svg"
-    },
-    {
-        "name": "Sass",
-        "icon": "assets/img/sass.svg"
-    }
+  {
+    "name": "Angular",
+    "icon": "assets/img/tools-icons/angular.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon": "assets/img/tools-icons/typescript.svg"
+  },
+  {
+    "name": "Spring",
+    "icon": "assets/img/tools-icons/spring.svg"
+  },
+  {
+    "name": "Java",
+    "icon": "assets/img/tools-icons/java.svg"
+  },
+  {
+    "name": "Git",
+    "icon": "assets/img/tools-icons/git.svg"
+  },
+  {
+    "name": "Sass",
+    "icon": "assets/img/tools-icons/sass.svg"
+  },
+  {
+    "name": "mySql",
+    "icon": "assets/img/tools-icons/mySql.svg"
+  }
 ]

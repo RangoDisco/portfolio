@@ -14,7 +14,7 @@
     "second-part-first-paragraph": ", a junior Web Developer currently studying at the WildCodeSchool in Lyon.",
     "first-part-second-paragraph": "Right now, I'm learning",
     "and": " and ",
-    "second-part-second-paragraph": "but I'm planning on learning more languages & technologies such as React and NodeJS.",
+    "second-part-second-paragraph": "and I'm learning other languages & technologies such as React and NodeJS.",
     "first-part-third-paragraph": "I also fell in love with ",
     "second-part-third-paragraph": " developement and I'm trying my best to help the community !"
   },
@@ -23,7 +23,7 @@
     "title": "Tools:"
   },
   "projects": {
-    "title": "Projects"
+    "title": "Projects:"
   },
   "footer": {
     "copyright": "Absolutly no copyright at all - "
@@ -34,7 +34,7 @@
     "desc1": "Angular app using AniList's API to offer a random anime/manga based on the user's filters.",
     "desc2": "Made alone during my free time.",
     "link": "https://github.com/RangoDisco/Ohto",
-    "img": "assets/img/ohto.png"
+    "img": "assets/img/projects-logos/ohto.png"
   },
   "P2": {
     "date": "11/05/21 - 12/05/21",
@@ -42,7 +42,7 @@
     "desc1": "Hackathon web app providing an entertainment toolbox for robots in space. Winning project",
     "desc2": "Made in 24h by a 5 members team.",
     "link": "https://github.com/RangoDisco/Tjunami",
-    "img": "assets/img/spaceTools.png"
+    "img": "assets/img/projects-logos/spaceTools.png"
   },
   "P3": {
     "date": "04/21 - 05/21",
@@ -50,7 +50,7 @@
     "desc1": "Student project providing standing, calendar and direct matches for women sport.",
     "desc2": "Made in 4 weeks by a 5 members team.",
     "link": "https://github.com/RangoDisco/P2-Angular-Squad-Lyon-Angular-Mars-2021",
-    "img": "assets/img/directFeminin.png"
+    "img": "assets/img/projects-logos/directFeminin.png"
   },
   "P4": {
     "date": "03/21",
@@ -58,7 +58,7 @@
     "desc1": "Collection of code snippets (MDN) made using HTML/CSS/vanilla JS",
     "desc2": "Made in 2 weeks by a 3 members team.",
     "link": "https://github.com/RangoDisco/691/tree/dev",
-    "img": "assets/img/691.png"
+    "img": "assets/img/projects-logos/691.png"
   },
   "P5": {
     "date": "2020",
@@ -66,7 +66,7 @@
     "desc1": "Small weather app made with Angular and OpenWeather's api to learn more about Angular.",
     "desc2": "Made alone during my free time.",
     "link": "https://github.com/RangoDisco/Aurinko",
-    "img": "assets/img/aurinko.png"
+    "img": "assets/img/projects-logos/aurinko.png"
   },
   "NotFound": {
     "desc": "This page does not exist.",

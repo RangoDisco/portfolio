@@ -4,10 +4,12 @@
             <h2 class="title">{{'tools.title' | translate}} </h2>
         </div>
 
-        <!-- Boucle sur la liste des outils pour les afficher un à un -->
-        <div class="tool" *ngFor="let tool of toolsList">
-            <div class="tool-icon">
-                <img class="tools-icon" [src]="tool.icon" alt="icon of {{tool.name}}">
+        <div class="tools-list">
+            <!-- Boucle sur la liste des outils pour les afficher un à un -->
+            <div class="tool" *ngFor="let tool of toolsList">
+                <div class="tool-icon">
+                    <img class="tools-icon" [src]="tool.icon" alt="icon of {{tool.name}}">
+                </div>
             </div>
         </div>
     </section>

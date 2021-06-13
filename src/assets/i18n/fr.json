@@ -14,7 +14,7 @@
     "second-part-first-paragraph": ", Développeur Web junior étudiant actuellement à la WildCodeSchool de Lyon.",
     "first-part-second-paragraph": "Pour l'instant je me forme sur",
     "and": " et ",
-    "second-part-second-paragraph": "mais j'essaie d'apprendre d'autres techonologies, comme React ou NodeJS.",
+    "second-part-second-paragraph": "et j'apprends, en parallèle d'autres techonologies, comme React ou NodeJS.",
     "first-part-third-paragraph": "Je suis également passionné par le développement ",
     "second-part-third-paragraph": " et je fais de mon mieux pour aider la communauté !"
   },
@@ -22,7 +22,7 @@
     "title": "Outils:"
   },
   "projects": {
-    "title": "Projets"
+    "title": "Projets:"
   },
   "footer.copyright": "Absolument pas de copyright -",
 
@@ -32,7 +32,7 @@
     "desc1": "Site rendant un anime/manga aléatoirement en fonction de filtres",
     "desc2": "Fait seul durant mon temps libre",
     "link": "https://github.com/RangoDisco/Ohto",
-    "img": "assets/img/ohto.png"
+    "img": "assets/img/projects-logos/ohto.png"
   },
   "P2": {
     "date": "11/05/21 - 12/05/21",
@@ -40,15 +40,15 @@
     "desc1": "Realisé lors d'un hackathon (projet gagnant). Boite à outils divertissante pour robots",
     "desc2": "Fait en 24h par une équipe de 5 membres",
     "link": "https://github.com/RangoDisco/Tjunami",
-    "img": "assets/img/spaceTools.png"
+    "img": "assets/img/projects-logos/spaceTools.png"
   },
   "P3": {
     "date": "04/21 - 05/21",
     "name": "Direct Feminin",
-    "desc1": "Realisé lors de ma formation. Site de resultats et d'actualités axé sur le sport feminin.",
+    "desc1": "Site de resultats et d'actualités axé sur le sport feminin (football et basketball).",
     "desc2": "Fait en 4 semaines par une équipe de 5 membres.",
     "link": "https://github.com/RangoDisco/P2-Angular-Squad-Lyon-Angular-Mars-2021",
-    "img": "assets/img/directFeminin.png"
+    "img": "assets/img/projects-logos/directFeminin.png"
   },
   "P4": {
     "date": "03/21",
@@ -56,7 +56,7 @@
     "desc1": "Site répertoriant des snippets de code (type MDN) fait avec de l'HTML/CSS/JS vanilla",
     "desc2": "Fait en 2 semaines par une équipe de 3 membres",
     "link": "https://github.com/RangoDisco/691/tree/dev",
-    "img": "assets/img/691.png"
+    "img": "assets/img/projects-logos/691.png"
   },
   "P5": {
     "date": "2020",
@@ -64,7 +64,7 @@
     "desc1": "Site de météo instantanée utilisant l'API d'OpenWeather",
     "desc2": "Fait seul durant mon temps libre.",
     "link": "https://github.com/RangoDisco/Aurinko",
-    "img": "assets/img/aurinko.png"
+    "img": "assets/img/projects-logos/aurinko.png"
   },
   "NotFound": {
     "desc": "Cette page n'existe pas",
