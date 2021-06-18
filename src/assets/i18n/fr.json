@@ -31,7 +31,7 @@
     "name": "Ohto",
     "desc1": "Site rendant un anime/manga aléatoirement en fonction de filtres",
     "desc2": "Fait seul durant mon temps libre",
-    "link": "https://github.com/RangoDisco/Ohto",
+    "link": "https://www.ohto.fun",
     "img": "assets/img/projects-logos/ohto.png"
   },
   "P2": {
@@ -39,7 +39,7 @@
     "name": "SpaceTools",
     "desc1": "Realisé lors d'un hackathon (projet gagnant). Boite à outils divertissante pour robots",
     "desc2": "Fait en 24h par une équipe de 5 membres",
-    "link": "https://github.com/RangoDisco/Tjunami",
+    "link": "https://space-tool-project.herokuapp.com",
     "img": "assets/img/projects-logos/spaceTools.png"
   },
   "P3": {
@@ -63,7 +63,7 @@
     "name": "Aurinko",
     "desc1": "Site de météo instantanée utilisant l'API d'OpenWeather",
     "desc2": "Fait seul durant mon temps libre.",
-    "link": "https://github.com/RangoDisco/Aurinko",
+    "link": "http://www.aurinko.fun",
     "img": "assets/img/projects-logos/aurinko.png"
   },
   "NotFound": {
