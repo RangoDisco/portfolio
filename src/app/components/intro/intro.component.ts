@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class IntroComponent implements OnInit {
   // string de la photo bind dans l'HTML
-  public introPhoto: string = 'assets/img/photo.png';
+  public introPhoto: string = 'assets/img/photo.jpg';
   // string du cv bind dans l'HTML
   public monCv: string = '../../assets/dias_maxime_cv.pdf';
 
