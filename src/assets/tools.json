@@ -20,6 +20,10 @@
     "icon": "assets/img/tools-icons/git.svg"
   },
   {
+    "name": "JavaScript",
+    "icon": "assets/img/tools-icons/javascript.svg"
+  },
+  {
     "name": "Sass",
     "icon": "assets/img/tools-icons/sass.svg"
   },

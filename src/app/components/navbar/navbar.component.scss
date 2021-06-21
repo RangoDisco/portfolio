@@ -1,5 +1,4 @@
-$bg-color: #262626;
-$accent-color: #34a594;
+@import "../../shared/scss/variables.scss";
 nav {
   background-color: $bg-color;
   font-size: 1.2rem;
@@ -35,4 +34,10 @@ nav a {
 .flag {
   font-size: 1.5rem;
   width: 100%;
+}
+
+@media screen and (max-width: 990px) {
+  .btn-lang {
+    padding-left: 12px;
+  }
 }

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { Tool } from '../../common/tool';
-import { ToolsService } from '../../common/tools.service';
+import { Tool } from '../../shared/common/tool';
+import { ToolsService } from '../../shared/common/tools.service';
 
 @Component({
   selector: 'app-languages-tools',

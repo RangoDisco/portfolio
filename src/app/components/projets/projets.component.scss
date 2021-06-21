@@ -1,5 +1,4 @@
-$bg-color: #262626;
-$accent-color: #34a594;
+@import "../../shared/scss/variables.scss";
 
 .title {
   color: $accent-color;
@@ -59,8 +58,7 @@ $accent-color: #34a594;
   color: $accent-color;
 }
 // FIN PROJECT
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
   #projects {
     width: 100%;
   }
@@ -68,12 +66,18 @@ $accent-color: #34a594;
     padding: 1rem;
     margin-bottom: 2%;
   }
+  .project {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 566px) {
   .project-list {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
   }
   .project {
+    margin-bottom: 5%;
     margin-left: 0;
     width: 95%;
   }
