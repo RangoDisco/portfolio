@@ -1,0 +1,122 @@
+<main id="contact">
+  <form
+    (ngSubmit)="contactForm.valid && onSubmit(contactForm)"
+    #contactForm="ngForm"
+  >
+    <!-- NAMES INPUT -->
+    <div class="names">
+      <!-- FiRSTNAME INPUT -->
+      <div class="firstname">
+        <input
+          name="user-firstname"
+          type="text"
+          [(ngModel)]="formInputs.firstname"
+          #firstname="ngModel"
+          required
+          minlength="3"
+          maxlength="50"
+          placeholder="Firstname *"
+        />
+        <!-- FIRSTNAME ERRORS -->
+        <div class="errors" *ngIf="firstname.errors && contactForm.submitted">
+          <div class="error" *ngIf="firstname.errors?.required">
+            Please enter your firstname
+          </div>
+          <div class="error" *ngIf="firstname.errors?.minlength">
+            Your firstname must be at least 3 characters long
+          </div>
+          <div class="error" *ngIf="firstname.errors?.max">
+            Your firstname must not exceed 50 characters
+          </div>
+        </div>
+      </div>
+      <div class="lastname">
+        <!-- LASTNAME INPUT -->
+        <input
+          name="user-lastname"
+          type="text"
+          [(ngModel)]="formInputs.lastname"
+          #lastname="ngModel"
+          required
+          minlength="3"
+          maxlength="50"
+          placeholder="Lastname *"
+        />
+        <!-- LASTNAME ERRORS -->
+        <div class="errors" *ngIf="lastname.errors && contactForm.submitted">
+          <div class="error" *ngIf="lastname.errors?.required">
+            Please enter your lastname
+          </div>
+          <div class="error" *ngIf="lastname.errors?.minlength">
+            Your lastname must be at least 3 characters long
+          </div>
+          <div class="error" *ngIf="lastname.errors?.max">
+            Your lastname must not exceed 50 characters
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL INPUT -->
+    <div class="email">
+      <input
+        type="text"
+        name="user-email"
+        [(ngModel)]="formInputs.email"
+        #email
+        required
+        placeholder="Email *"
+      />
+      <!-- EMAIL ERRORS -->
+      <div class="errors" *ngIf="email.errors && contactForm.submitted">
+        <div class="error" *ngIf="email.errors?.required">
+          Please enter your email
+        </div>
+      </div>
+    </div>
+    <!-- PHONE INPUT -->
+    <div class="phone">
+      <input
+        type="text"
+        name="user-phone"
+        [(ngModel)]="formInputs.phone"
+        #phone
+        required
+        placeholder="Phone"
+      />
+
+      <!-- PHONE ERRORS -->
+      <div class="errors" *ngIf="phone.errors && contactForm.submitted">
+        <div class="error" *ngIf="phone.errors?.required">
+          Please enter your phone number
+        </div>
+      </div>
+    </div>
+    <!-- CONTENT TEXTAREA -->
+    <div class="content">
+      <textarea
+        class="content-input"
+        name="user-content"
+        [(ngModel)]="formInputs.content"
+        #content
+        required
+        minlength="15"
+        maxlength="500"
+        placeholder="Your message"
+      ></textarea>
+      <!-- CONTENT ERRORS -->
+      <div class="errors" *ngIf="content.errors && contactForm.submitted">
+        <div class="error" *ngIf="content.errors?.required">
+          Please enter your message
+        </div>
+        <div class="error" *ngIf="content.errors?.minlength">
+          Your message must be at least 15 characters long
+        </div>
+        <div class="error" *ngIf="content.errors?.max">
+          Your message must not exceed 500 characters
+        </div>
+      </div>
+    </div>
+    <button class="submit-btn" type="submit">Send</button>
+  </form>
+</main>

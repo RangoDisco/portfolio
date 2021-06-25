@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ContactComponent } from './components/contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +25,7 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
     LanguagesToolsComponent,
     HomeComponent,
     FooterComponent,
+    ContactComponent,
   ],
 
   imports: [
