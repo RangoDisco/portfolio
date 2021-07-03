@@ -4,6 +4,14 @@ $bg-color: #262626;
   font-family: Rubik;
   src: url(assets/fonts/Rubik-Regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: Sofia;
+  src: url(assets/fonts/Sofia.otf);
+}
+@font-face {
+  font-family: Cheyenne;
+  src: url(assets/fonts/CheyenneSans-Regular.ttf) format("truetype");
+}
 body {
   height: 100%;
   margin: 0;
