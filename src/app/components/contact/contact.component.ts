@@ -13,12 +13,8 @@ export class ContactComponent implements OnInit {
   formInputs: FormInputs = new FormInputs();
   constructor(private emailService: EmailService) {}
 
-  ngOnInit(): void {
-    this.emailService.testoShito().subscribe((data) => {
-      console.log(data);
-    });
-  }
+  ngOnInit(): void {}
   onSubmit() {
-    console.log('menfou');
+    this.emailService.sendMail(this.formInputs);
   }
 }

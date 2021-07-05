@@ -7,7 +7,7 @@
         <input
           name="user-firstname"
           type="text"
-          [(ngModel)]="formInputs.firstname"
+          [(ngModel)]="formInputs.firstName"
           #firstname="ngModel"
           required
           minlength="3"
@@ -32,7 +32,7 @@
         <input
           name="user-lastname"
           type="text"
-          [(ngModel)]="formInputs.lastname"
+          [(ngModel)]="formInputs.lastName"
           #lastname="ngModel"
           required
           minlength="3"
@@ -60,7 +60,7 @@
         type="text"
         name="user-email"
         [(ngModel)]="formInputs.email"
-        #email
+        #email="ngModel"
         required
         placeholder="Email *"
       />
@@ -71,36 +71,20 @@
         </div>
       </div>
     </div>
-    <!-- PHONE INPUT -->
-    <div class="phone">
-      <input
-        type="text"
-        name="user-phone"
-        [(ngModel)]="formInputs.phone"
-        #phone
-        required
-        placeholder="Phone"
-      />
 
-      <!-- PHONE ERRORS -->
-      <div class="errors" *ngIf="phone.errors && contactForm.submitted">
-        <div class="error" *ngIf="phone.errors?.required">
-          Please enter your phone number
-        </div>
-      </div>
-    </div>
     <!-- CONTENT TEXTAREA -->
     <div class="content">
       <textarea
         class="content-input"
         name="user-content"
         [(ngModel)]="formInputs.content"
-        #content
+        #content="ngModel"
         required
         minlength="15"
         maxlength="500"
         placeholder="Your message"
-      ></textarea>
+      >
+      </textarea>
       <!-- CONTENT ERRORS -->
       <div class="errors" *ngIf="content.errors && contactForm.submitted">
         <div class="error" *ngIf="content.errors?.required">

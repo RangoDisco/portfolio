@@ -1,25 +1,21 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
 })
 export class EmailService {
-  public baseUrl = 'http://localhost:8080';
-
+  public url = 'http://localhost:8080/sendmail';
   constructor(private http: HttpClient) {}
-
-  public testoShito = (): Observable<any> => {
-    const obs: Observable<any> = this.http.get(this.baseUrl, {
-      headers: new HttpHeaders({
-        'Access-Control-Allow-Origin': '*',
-      }),
+  sendMail(inputs) {
+    const headers = new HttpHeaders({
+      'Content-Type': 'application/json',
     });
-    const data = (data) => {
-      return data as JSON;
+    const options = {
+      headers,
     };
-    return obs.pipe(map(data));
-  };
+    const body = inputs;
+    console.log(body);
+    this.http.post(this.url, body, options).subscribe((res) => res);
+  }
 }
