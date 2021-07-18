@@ -1,10 +1,10 @@
 <main id="intro">
   <!-- SECTION PHOTO + LIENS -->
   <section class="content">
-    <section class="name-infos">
+    <div class="name-infos">
       <img class="intro-photo" [src]="introPhoto" alt="Ma photo" />
       <div class="name">Maxime Dias</div>
-      <div class="title accent">{{ "intro.title" | translate }}</div>
+      <div class="title accent job">{{ "intro.title" | translate }}</div>
       <div class="links">
         <a
           href="https://github.com/RangoDisco"
@@ -24,11 +24,13 @@
           <i-feather name="download" class="icon"></i-feather>
         </a>
       </div>
-    </section>
+    </div>
 
     <!-- SECTION ABOUT -->
-    <section class="about">
-      <h2 class="accent about-title">{{ "about.title" | translate }}</h2>
+    <div class="about">
+      <h2 class="accent about-title">
+        {{ "about.title" | translate }}
+      </h2>
       <p>
         {{ "about.first-part-first-paragraph" | translate }}
         <span class="bold accent">Maxime</span
@@ -47,7 +49,7 @@
         <span class="bold accent">Open Source</span
         >{{ "about.second-part-third-paragraph" | translate }}
       </p>
-    </section>
+    </div>
   </section>
 
   <!-- BUTTON POUR DESCENDRE -->

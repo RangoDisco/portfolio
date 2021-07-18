@@ -1,13 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-$bg-color: #262626;
-@font-face {
-  font-family: Rubik;
-  src: url(assets/fonts/Rubik-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: Sofia;
-  src: url(assets/fonts/Sofia.otf);
-}
+@import "_colors";
+@import "_titles";
+
 @font-face {
   font-family: Cheyenne;
   src: url(assets/fonts/CheyenneSans-Regular.ttf) format("truetype");

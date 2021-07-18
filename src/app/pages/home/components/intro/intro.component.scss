@@ -1,4 +1,4 @@
-@import "../../shared/scss/variables.scss";
+@import "styles";
 main {
   margin: 5% 0 10% 0;
   color: white;
@@ -25,6 +25,9 @@ main {
 }
 .title {
   font-size: 2rem;
+}
+.job {
+  text-align: center;
 }
 .links {
   margin-top: 2%;

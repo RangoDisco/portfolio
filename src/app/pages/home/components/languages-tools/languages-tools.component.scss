@@ -1,5 +1,4 @@
-@import "../../shared/scss/variables.scss";
-@import "../../shared/scss/titles.scss";
+@import "styles";
 
 main {
   color: white;
@@ -9,6 +8,9 @@ main {
 .tools {
   margin: auto;
   width: 80%;
+}
+.tools-title {
+  padding: 1rem;
 }
 .tools-list {
   display: flex;
