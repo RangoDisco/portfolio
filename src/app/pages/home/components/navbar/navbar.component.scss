@@ -5,7 +5,8 @@ nav {
 }
 nav a,
 .collapse a,
-.btn-lang {
+.btn-lang,
+.top {
   color: $accent-color;
   transition: all 400ms ease-in-out;
   border-radius: 5px;
@@ -21,6 +22,14 @@ nav a,
 }
 nav a {
   padding: 0.5rem;
+}
+.top {
+  border: none;
+  background: $bg-color;
+  color: $accent-color;
+  &:focus {
+    color: $accent-color;
+  }
 }
 .nav-item {
   margin-left: 5px;

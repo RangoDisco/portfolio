@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -10,7 +11,7 @@ export class NavbarComponent implements OnInit {
   currentLang: String;
 
   // Necessaire pour la traduction
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, private router: Router) {
     translate.addLangs(['en', 'fr']);
     translate.currentLang = translate.getBrowserLang();
     translate.setDefaultLang(this.translate.currentLang);
@@ -29,5 +30,12 @@ export class NavbarComponent implements OnInit {
     if (this.translate.currentLang == 'fr') {
       this.currentLang = 'en';
     } else this.currentLang = 'fr';
+  }
+
+  // Scroll to top
+
+  scrollToTop() {
+    window.scrollTo(0, 0);
+    this.router.navigate(['/']);
   }
 }
