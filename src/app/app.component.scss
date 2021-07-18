@@ -13,14 +13,14 @@
     color: $bg-color;
   }
 }
-// .animation {
-//   animation: opac 1s;
-// }
-// @keyframes opac {
-//   from {
-//     opacity: 0;
-//   }
-//   to {
-//     opacity: 1;
-//   }
-// }
+.animation {
+  animation: opac 1s;
+}
+@keyframes opac {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
